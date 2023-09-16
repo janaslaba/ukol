@@ -1,3 +1,26 @@
-h1 {
+body {
+    font-family: ;
+    color: ;
+    background-color:aliceblue;
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
     color: navy;
+    font-family: ;
+    font-style: italic;
+}
+
+#mojefotka{
+    width: 300px;
+    border-radius: 5%;
+    float:left;
+    margin-right: 100px;
+    margin-bottom: 100px;
+   
+
 }
