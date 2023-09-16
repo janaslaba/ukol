@@ -1,11 +1,18 @@
 body {
     font-family: ;
     color: ;
-    background-color:aliceblue;
+    background-color: aliceblue;
     line-height: 1.5;
     font-size: 20px;
-    margin: 0;
+    margin: 50px;
 }
+
+h1 {
+    
+
+}
+
+
 
 h1,
 h2,
@@ -15,12 +22,39 @@ h3 {
     font-style: italic;
 }
 
-#mojefotka{
-    width: 300px;
-    border-radius: 5%;
-    float:left;
-    margin-right: 100px;
-    margin-bottom: 100px;
-   
+section {
+        overflow: auto;
+        padding: 5% 50px 5% 50px; 
+}
 
+
+
+#mojefotka {
+    width: 300px;
+    border-radius: 10px;
+    float: left;
+    padding-right: 10%;
+    padding-bottom: 10px;
+   
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.menu {
+    margin:  0;
+    padding: 0; 
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
 }
