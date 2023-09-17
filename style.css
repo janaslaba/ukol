@@ -1,10 +1,10 @@
 body {
-    font-family: ;
+    font-family: 'Source Sans 3', sans-serif;
     color: #131010; 
     background-color: rgb(251, 252, 254);
     line-height: 1.5;
     font-size: 20px;
-    margin: 50px;
+    margin: 0 50px 0 50px;
 }
 
 
@@ -13,7 +13,20 @@ h2,
 h3,
 a {
     color:#211e1e;
-    font-family: ;
+}
+
+h1,
+h2,
+h3 {font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+h2 {
+    font-size: 35px;
 }
 
 section {
@@ -45,13 +58,15 @@ section {
 footer {
     text-align: center;
     padding: 20px 0;
-
+    margin: 0;
+    border-top: 2px solid #211e1e;
 }
 
 .menu {
     margin:  0;
     padding: 0; 
     text-align: center;
+    border-bottom: 2px solid #211e1e;
 }
 
 .menu li {
@@ -62,4 +77,10 @@ footer {
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #e0dbdb ;
 }
