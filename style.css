@@ -1,33 +1,37 @@
 body {
     font-family: ;
-    color: ;
-    background-color: aliceblue;
+    color: #131010; 
+    background-color: rgb(251, 252, 254);
     line-height: 1.5;
     font-size: 20px;
     margin: 50px;
 }
 
-h1 {
-    
-
-}
-
-
 
 h1,
 h2,
-h3 {
-    color: navy;
+h3,
+a {
+    color:#211e1e;
     font-family: ;
-    font-style: italic;
 }
 
 section {
-        overflow: auto;
-        padding: 5% 50px 5% 50px; 
+    overflow: auto;
+    padding: 20px 50px 20px 50px; 
+
 }
 
+.cinnost {
+    text-align: left;
+    padding: 20px 10px 20px 20px;
+}
 
+.datum {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 0px;
+}
 
 #mojefotka {
     width: 300px;
@@ -47,6 +51,7 @@ footer {
 .menu {
     margin:  0;
     padding: 0; 
+    text-align: center;
 }
 
 .menu li {
